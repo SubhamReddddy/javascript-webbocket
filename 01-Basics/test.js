@@ -1,5 +1,5 @@
 console.log('noob');
-document.body.innerHTML='noob';
+window.body.innerHTML='noob';
 /*
  1. javascript is high level Scripting Language
     used to develop web & mobile application efficiently
