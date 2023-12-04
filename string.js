@@ -1,0 +1,17 @@
+const getName = 'priyamvoda';
+console.log(getName[5]);
+console.log(getName.__proto__);
+console.log(getName.length);
+console.log(getName.toLowerCase());
+console.log(getName.toUpperCase());
+console.log(getName.charAt(3));
+console.log(getName.indexOf('y'));
+const newString=getName.substring(0,5);
+const anotherString = newString.slice(3,6);
+console.log(anotherString);
+const newStringg ='  gift  ';
+console.log(newStringg.trim());
+const url = 'www.web_bocket.com';
+console.log(url.replace('com','in'));
+const demo = 'gift-is-an-awesome-college';
+console.log(demo.split('-'));

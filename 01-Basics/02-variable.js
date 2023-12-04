@@ -31,7 +31,7 @@
 
         function root(){
             if(true){
-                var heroOne='ironman';   //functional scope   not assessable out side the function
+                var heroOne='ironman';   //functional scope, assessable out side the function
                 const heroTwo='superman'; //functional scope
                 let heroThree='spiderman';  //block scope
             }
@@ -47,7 +47,7 @@
                 1.number
                 2.string
                 3.boolean
-                4.bigint
+                4.bigint        // worked with stack memory
                 5.undefined
                 6.null
                 7.symbol
@@ -55,7 +55,7 @@
 
             2.reference datatype
                 1.[]
-                2.{}
+                2.{}        //worked with heap memory
                 3.()
 
                 example
@@ -97,4 +97,3 @@
             1.$
             2.{}
        */
-      
