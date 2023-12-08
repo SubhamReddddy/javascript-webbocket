@@ -52,3 +52,12 @@ function loginUserMessage (username = "Rakhi"){
     console.log(`${username},just loggedin`);
 }
 loginUserMessage("Saneay");
+
+function addInYourCart(value1,value2,...rest_value)  // spread operator  // rest operator
+{
+    console.log(value1);
+    console.log(value2);
+    console.log(rest_value);
+}
+
+addInYourCart(30,87,234,42342,4234);
