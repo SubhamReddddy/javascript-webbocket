@@ -1,4 +1,4 @@
-const getName = 'priyamvoda';
+const getName = 'dishanoob';
 console.log(getName[5]);
 console.log(getName.__proto__);
 console.log(getName.length);
