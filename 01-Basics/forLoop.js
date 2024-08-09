@@ -12,9 +12,9 @@ console.log(values);
 //for each
 //It will return nothing ..For each doesn't have any return value .
 const languages = ['C','c++','java','python','.net','php','react','angular']
-const values = languages.forEach( (item) => { 
-            // return item;
-            // console.log(item)s;
+languages.forEach((i,j) => { 
+            console.log(i);
+            console.log(j);
 })
 // console.log(values);
 
